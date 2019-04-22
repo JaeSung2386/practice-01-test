@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class AdminMenu extends Component {
+class ServiceMenu extends Component {
     render() {
         return (
             <div>
@@ -18,7 +18,6 @@ class AdminMenu extends Component {
                             <a className="collapse-item" href="#">근무시간 설정</a>
                             <a className="collapse-item" href="#">휴게시간 설정</a>
                             <a className="collapse-item" href="#">휴일 설정</a>
-                            <a className="collapse-item" href="#">404 Page</a>
                         </div>
                     </div>
                 </li>
@@ -27,4 +26,4 @@ class AdminMenu extends Component {
     }
 }
 
-export default AdminMenu;
+export default ServiceMenu;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
-import AdminNav from './AdminMenu';
+import ServiceMenu from './ServiceMenu';
 
 class Navigation extends Component {
   render() {
@@ -80,7 +80,7 @@ class Navigation extends Component {
             </li>
 
                 <hr className="sidebar-divider" />
-          <AdminNav />
+          <ServiceMenu />
           <hr className="sidebar-divider d-none d-md-block" />
         </ul>
     );
